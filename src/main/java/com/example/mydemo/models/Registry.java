@@ -49,4 +49,5 @@ public class Registry {
      */
     @OneToMany(mappedBy = "registry")
     private List<Customer> customers;
+
 }
